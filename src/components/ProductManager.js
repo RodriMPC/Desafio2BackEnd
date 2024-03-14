@@ -1,6 +1,6 @@
 import {promises as fs} from "fs"
 
-class ProductManager {
+export default class ProductManager {
     constructor(){
         this.patch = "./products.txt"
         this.products = []
@@ -69,10 +69,14 @@ class ProductManager {
 
 const products = new ProductManager();
 
-//products.addProduct("Titulo1", "Descripcion1", 2000, "Imagen1", "abc123", 10)
-//products.addProduct("Titulo2", "Descripcion2", 4000, "Imagen2", "abc124", 20)
+// products.addProduct("Titulo1", "Descripcion1", 2000, "Imagen1", "abc123", 10)
+// products.addProduct("Titulo2", "Descripcion2", 4000, "Imagen2", "abc124", 20)
+// products.addProduct("Titulo3", "Descripcion3", 6000, "Imagen3", "abc125", 30)
+// products.addProduct("Titulo4", "Descripcion4", 8000, "Imagen4", "abc126", 40)
+// products.addProduct("Titulo5", "Descripcion5", 10000, "Imagen5", "abc127", 50)
+// products.addProduct("Titulo6", "Descripcion6", 12000, "Imagen6", "abc128", 60)
 
-//products.getProducts()
+// products.getProducts()
 
 //products.deleteProductsById(2)
 
